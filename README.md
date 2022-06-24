@@ -1,4 +1,4 @@
-# Halifax, Nova Scotia Aircraft Spotting Twitter Bot
+# Halifax, Nova Scotia Aircraft Spotting Reddit Bot
 
 
 ## Requirements:
