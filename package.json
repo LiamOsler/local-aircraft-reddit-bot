@@ -1,0 +1,26 @@
+{
+  "name": "halifax-skies-twitter-bot",
+  "version": "1.0.0",
+  "description": "A bot that tweets when aircraft reporting AIS positions are spotted near Halifax, Nova Scotia",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "halifax",
+    "ns",
+    "ais",
+    "aviation"
+  ],
+  "author": "Liam Osler",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "node-cron": "^3.0.1",
+    "twit": "^2.2.11",
+    "uuid": "^8.3.2"
+  }
+}
