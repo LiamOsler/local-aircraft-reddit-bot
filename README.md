@@ -1,4 +1,4 @@
-# Halifax, Nova Scotia Aircraft Spotting Twitter Bot
+# Halifax, Nova Scotia Aircraft Spotting Reddit Bot
 
 
 ## Requirements:
@@ -7,6 +7,7 @@
 ## Packages:
 
 ```node-cron``` https://github.com/kelektiv/node-cron
+
 ```axios``` https://github.com/axios/axios
 
 
