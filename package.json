@@ -18,9 +18,12 @@
   "license": "UNLICENSED",
   "dependencies": {
     "axios": "^0.27.2",
+    "csv-parser": "^3.0.0",
     "dotenv": "^16.0.1",
+    "fast-csv": "^4.3.6",
     "node-cron": "^3.0.1",
-    "twit": "^2.2.11",
+    "reddit": "^1.2.1",
+    "twitter-lite": "^1.1.0",
     "uuid": "^8.3.2"
   }
 }
