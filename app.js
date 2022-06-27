@@ -56,7 +56,9 @@ const reddit = new Reddit({
                             +"\n"
                             +"\n"
                             +"I am a bot. Bleep. Bloop. /u/Democedes is my creator"
-
+                            +"\n"
+                            +"\n"
+                            +"Fork me on [Github](https://github.com/LiamOsler/halifaxskywatchbot-reddit)"
                         }
             else{
                 postTitle = "Aircraft with unknown callsign (icao24 transponder code: " + state[0] + ") has entered Halifax airspace."
@@ -79,6 +81,9 @@ const reddit = new Reddit({
                             +"\n"
                             +"\n"
                             +"I am a bot. Bleep. Bloop. /u/Democedes is my creator"
+                            +"\n"
+                            +"\n"
+                            +"Fork me on [Github](https://github.com/LiamOsler/halifaxskywatchbot-reddit)"
             }
     }
     if(status == "exit"){
