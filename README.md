@@ -67,7 +67,7 @@ cron.schedule('0 0 * * * *', () => {
 
 App.js:
 
-```
+```js
 const cron = require('node-cron');
 const axios = require('axios');
 const Reddit = require('reddit');
