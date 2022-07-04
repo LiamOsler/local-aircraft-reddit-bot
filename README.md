@@ -150,7 +150,7 @@ async function redditPost(state, details, status) {
                             +"[OpenSky Database entry for this aircraft](https://opensky-network.org/aircraft-profile?icao24="+state[0]+")"
                             +"\n"
                             +"\n"
-                            +"[ADS-B Exchange link for this aircraft](https://globe.adsbexchange.com/?icao="+state[0]+")"
+                            +"[FlightRadar24 Map Link](http://flightradar24.com/"+state[1]+")"
                             +"\n"
                             +"\n"
                             +"Data via the [OpenSky API](https://openskynetwork.github.io/opensky-api/)"
