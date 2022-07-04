@@ -49,16 +49,13 @@ const reddit = new Reddit({
                             +"[OpenSky Database entry for this aircraft](https://opensky-network.org/aircraft-profile?icao24="+state[0]+")"
                             +"\n"
                             +"\n"
-                            +"[FlightRadar24 Map Link](http://flightradar24.com/"+state[1]+")"
+                            +"[ADS-B Exchange link for this aircraft](https://globe.adsbexchange.com/?icao="+state[0]+")"
                             +"\n"
                             +"\n"
                             +"Data via the [OpenSky API](https://openskynetwork.github.io/opensky-api/)"
                             +"\n"
                             +"\n"
                             +"I am a bot. Bleep. Bloop. /u/Democedes is my creator"
-                            +"\n"
-                            +"\n"
-                            +"Fork me on [Github](https://github.com/LiamOsler/halifaxskywatchbot-reddit)"
                         }
             else{
                 postTitle = "Aircraft with unknown callsign (icao24 transponder code: " + state[0] + ") has entered Halifax airspace."
@@ -74,16 +71,13 @@ const reddit = new Reddit({
                             +"[OpenSky Database entry for this aircraft](https://opensky-network.org/aircraft-profile?icao24="+state[0]+")"
                             +"\n"
                             +"\n"
-                            +"[FlightRadar24 Map Link (Halifax Area)](https://www.flightradar24.com/44.74,-63.55)"
+                            +"[ADS-B Exchange link for this aircraft](https://globe.adsbexchange.com/?icao="+state[0]+")"
                             +"\n"
                             +"\n"
                             +"Post Data via the [OpenSky API](https://openskynetwork.github.io/opensky-api/)"
                             +"\n"
                             +"\n"
                             +"I am a bot. Bleep. Bloop. /u/Democedes is my creator"
-                            +"\n"
-                            +"\n"
-                            +"Fork me on [Github](https://github.com/LiamOsler/halifaxskywatchbot-reddit)"
             }
     }
     if(status == "exit"){
@@ -102,7 +96,7 @@ const reddit = new Reddit({
 let aircrafts = [];
 let recents = [];
 
-cron.schedule('*/10 * * * * *', () => {
+cron.schedule('*/30 * * * * *', () => {
     axios
     .get('https://opensky-network.org/api/states/all?lamin=44.00&&lomin=-64.00&lamax=45.00&lomax=-63.00')
     .then(res => {

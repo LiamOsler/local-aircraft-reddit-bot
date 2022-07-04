@@ -22,6 +22,7 @@
     "dotenv": "^16.0.1",
     "fast-csv": "^4.3.6",
     "node-cron": "^3.0.1",
+    "react": "^18.2.0",
     "reddit": "^1.2.1",
     "twitter-lite": "^1.1.0",
     "uuid": "^8.3.2"
