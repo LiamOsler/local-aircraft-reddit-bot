@@ -154,9 +154,6 @@ async function redditPost(state, details, status) {
                             +"\n"
                             +"\n"
                             +"Data via the [OpenSky API](https://openskynetwork.github.io/opensky-api/)"
-                            +"\n"
-                            +"\n"
-                            +"I am a bot. Bleep. Bloop. /u/Democedes is my creator"
                         }
             else{
                 postTitle = "Aircraft with unknown callsign (icao24 transponder code: " + state[0] + ") has entered Halifax airspace."
@@ -176,9 +173,6 @@ async function redditPost(state, details, status) {
                             +"\n"
                             +"\n"
                             +"Post Data via the [OpenSky API](https://openskynetwork.github.io/opensky-api/)"
-                            +"\n"
-                            +"\n"
-                            +"I am a bot. Bleep. Bloop. /u/Democedes is my creator"
             }
     }
     if(status == "exit"){
